@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MJCET CANTEEN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d266375dd6.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+</head>
+<body>
+<header>
+    <a class="logo"><i class="fas fa-utensils"></i> MJ CANTEEN</a>
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#popular">Menu</a>
+        <a href="#stationary">Stationary</a>
+        <a href="#Reviews">Reviews</a>
+        <a href="#Order">Log-In</a>
+        <i href=""  class="fa-solid fa-cart-shopping" id="cart-icon"></i>          
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+             <div class="cart-content">
+                <div class="cart-box">
+                    <img src="vegsandwitch.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Veg-Sandwitch</div>
+                        <div class="cart-price">Rs.40</div>
+                        <input type="number" value="1" class="cart-quantity">
+                   </div>
+                    <!-- remove-cart -->
+
+                    <i class='bx bxs-trash-alt cart-remove'></i>
+                </div>
+            </div>
+            <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <button type="button" class="btn-buy">Confirm Order</button>
+        <i class='bx bx-x' id="cart-close"></i>
+
+
+
+
+        </div>
+
+    </nav>
+</header>  
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>WELCOME TO MJCET CANTEEN</h3>
+        <p>Now order online and get it delivered to you in just few minutes.</p>
+        <a href="#popular" class="btn">Order Now</a>
+    </div>
+    <div class="image">
+        <img src="home-img.webp" alt="">
+
+    </div>
+
+</section>
+
+<section class="popular" id="popular">
+    <h1 class="heading">Menu</h1>
+    <div class="box-container">
+       <div class="box">
+        <span class="price">Rs.40</span>
+        <img src="wada.webp" alt="">
+        <!-- <i  href="@"  class="fa-solid fa-cart-shopping add-cart"></i> -->
+        <h3>Wada</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="@" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.40</span>
+        <img src="idly.jpg" alt="">
+        <h3>Idly</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.40</span>
+        <img src="home-img.webp" alt="">
+        <h3>Dosa</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.40</span>
+        <img src="puri.jpg" alt="">
+        <h3>Puri</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.60</span>
+        <img src="vegbiryani.jpg" alt="">
+        <h3>Veg Biryani</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.50</span>
+        <img src="lemonrice.jpg" alt="">
+        <h3>Lemon Rice</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.40</span>
+        <img src="vegsandwitch.jpg" alt="">
+        <h3>Veg Sandwitch</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.40</span>
+        <img src="Spring-Roll.webp" alt="">
+        <h3>Veg Roll</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.15</span>
+        <img src="samosa.jpg" alt="">
+        <h3>Samosa</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.15</span>
+        <img src="milktea.webp" alt="">
+        <h3>Tea</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.20</span>
+        <img src="greentea.webp" alt="">
+        <h3>Lemon-Tea</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.20</span>
+        <img src="badammilk.jpg" alt="">
+        <h3>Badam-Milk</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.15</span>
+        <img src="Coffee.jpg" alt="">
+        <h3>Coffee</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+       </div>
+       <div class="box">
+        <span class="price">Rs.20</span>
+        <img src="mountaindew.webp" alt="">
+        <h3>Mountain-Dew</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+            <span class="price">Rs.20</span>
+            <img src="cocacola.jpg" alt="">
+            <h3>Cocacola</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.20</span>
+            <img src="pepsi.webp" alt="">
+            <h3>Pepsi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.40</span>
+            <img src="thumbsup.webp" alt="">
+            <h3>ThumsUp</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.20</span>
+            <img src="sting.webp" alt="">
+            <h3>Sting</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.20</span>
+            <img src="mirinda.jpeg" alt="">
+            <h3>Mirinda</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.25</span>
+            <img src="creambellcoffee.jpg" alt="">
+            <h3>Cold Coffee</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.25</span>
+            <img src="chocomilk.webp" alt="">
+            <h3>Choco-Milk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.35</span>
+            <img src="masqatimilk.webp" alt="">
+            <h3>Masqati-BadamMilk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.40</span>
+            <img src="trolichi.webp" alt="">
+            <h3>Tropicana-Lichi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+           </div>
+           <div class="box">
+            <span class="price">Rs.40</span>
+            <img src="tromixed.jpg" alt="">
+            <h3>Tropicana-mixedFruit</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Basket</a>
+           </div>
+           <!-- <div class="box">
+            <span class="price">Rs.10</span>
+            <img src="slice.jpg" alt="">
+            <h3>Slice</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add</a>
+           </div> -->
+    </div>
+</section>
+<!-- order page -->
+<section class="order" id="order">
+    <h1 class="heading"> <span>order</span>now</h1>
+    <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+            <input type="number" placeholder="Mobile No.">
+        </div>
+        <div class="">
+            <select>
+                <option>Slect Your time to Deliver</option>
+                <option value="10:00 Am-10:15AM">10:00 Am-10:15AM</option>
+                <option value="10:15Am-10:30AM">10:15Am-10:30AM</option>
+                <option value="10:30 Am-10:45AM">10:30 Am-10:45AM</option>
+                <option value="10:45 Am-11:00AM">10:45 Am-11:00AM</option>
+                <option value="11:00 Am-11:15">11:00 Am-11:15Am</option>
+                <option value="11:15 Am-11:30AM">10:00 Am-10:15AM</option>
+                <option value="11:30 Am-11:45AM">10:00 Am-10:15AM</option>
+                <option value="11:45 Am-12:00PM">10:00 Am-10:15AM</option>
+                <option value="12:15 PM-12:30PM">10:00 Am-10:15AM</option>
+                <option value="12:30 Am-12:45AM">10:00 Am-10:15AM</option>
+                <option value="12:45 Am-1:00AM">10:00 Am-10:15AM</option>
+                <option value="1:00 Am-1:15AM">10:00 Am-10:15AM</option>
+                <option value="1:15 Am-1:30AM">10:00 Am-10:15AM</option>
+                <option value="1:30 Am-1:45AM">10:00 Am-10:15AM</option>
+                <option value="1:45 Am-2:00AM">10:00 Am-10:15AM</option>
+                <option value="2:00 Am-2:15AM">10:00 Am-10:15AM</option>
+                <option value="2:15 Am-2:30AM">10:00 Am-10:15AM</option>
+                <option value="2:45 Am-3:00AM">10:00 Am-10:15AM</option>
+                <option value="3:00 Am-3:15AM">10:00 Am-10:15AM</option>
+                <option value="3:15 Am-3:30AM">10:00 Am-10:15AM</option>
+                <option value="3:30 Am-3:45AM">10:00 Am-10:15AM</option>
+            </select>
+        </div>
+
+
+
+    </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
